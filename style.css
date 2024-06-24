@@ -12,6 +12,13 @@
 
 .navbar a {
     color: white !important;
+    font-weight: 600;
+}
+.navbar a:hover {
+    color: orange !important;
+}
+.navbar li.active{
+    color: orange !important;
 }
 
 .hero-main button {
@@ -358,11 +365,11 @@
     }
 
     .footer-main h4 {
-        font-size: 9px;
+        font-size: 15px;
     }
 
     .footer-main h6 {
-        font-size: 7px;
+        font-size: 11px;
     }
 
     .foot-icon-box {
