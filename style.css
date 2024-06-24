@@ -1,136 +1,378 @@
-.head-back{
-    background-image: url(./stefan-stefancik-0wMmxNB6Xzc-unsplash.jpg);
+.head-back {
+    background-image: url(./oziel-gomez-IbLZjKcelpM-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-.navbar{
+
+
+.navbar {
     border-bottom: 1px solid rgba(255, 255, 255, 0.722);
 }
-.navbar a{
+
+.navbar a {
     color: white !important;
 }
-.hero-main button{
+
+.hero-main button {
     background-color: orange;
     color: white;
     border-radius: 20px;
     border: none;
 }
 
+.section-main {
+    margin-bottom: 100px;
+}
+
+.section-main-a {
+    margin-bottom: 100px;
+}
+
+.foot-icon {
+    display: flex;
+
+}
+
+.foot-icon-box {
+    background-color: rgba(128, 128, 128, 0.778);
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
 /*  */
 
-.carousel-indicators{
-left: 0;
-top: auto;
-bottom: -80px;
+.carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -80px;
 
 }
 
-.carousel .carousel-indicators button{
- width: 10px;
-height: 10px;
-border-radius: 100%;
-background-color: orange;
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: orange;
 }
 
-.single-box{
-  background-color: rgb(237, 249, 245);
-  box-shadow: rgba(149,157,15,0.2)0px 8px 24px;
-  margin-bottom: 20px;
-}
-.single-box i{
-color: orange;
-font-size: 30px;
-}
-.single-box h4{
-font-size: 17px;
-}
-.single-box p{
-font-size: 14px;
-color: rgba(0, 0, 0, 0.692);
-}
-.single-photo img{
-/* /* width: 100px !important; */
-background-size: cover;
-aspect-ratio: 1/1;
-}
-.news-box img{
-aspect-ratio: 1/1;
+.single-box {
+    background-color: rgb(237, 249, 245);
+    box-shadow: rgba(149, 157, 15, 0.2)0px 8px 24px;
+    margin-bottom: 20px;
 }
 
-/* .card-img .big-img img{
+.single-box i {
+    color: orange;
+    font-size: 30px;
+}
+
+.single-box h4 {
+    font-size: 17px;
+}
+
+.single-box p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.single-photo img {
+    background-size: cover;
+    aspect-ratio: 1/1;
+    background-color: black;
+    opacity: 0.7;
+   
+}
+/* photo center text start*/
+
+.black-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-blend-mode:lighten;
+}
+.text{
+    position: absolute;
+    color: white;
+    margin-bottom: 15px;
+}
+/* photo center text end*/
+
+.news-box img {
+    aspect-ratio: 1/1;
+}
+/* search box start*/
+.search-box {
     width: 100%;
-    height: 200px;
-} */
+    max-width: 300px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    position: relative;
+    
+  }
+  
+  /* Style for the input field */
+  .search-box input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    /* border: 1px solid #ccc; */
+    border: none;
+    border-radius: 4px;
+    float: right;
+  }
+  
+  /* Style for the search button */
+  .search-box button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    color: black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media screen and (max-width: 600px) {
+    .search-box {
+      max-width: 50%;
+    }
+  }
+/* search box end*/
+.section-c {
+    padding-bottom: 40px;
+}
+
+.section-e {
+    padding-bottom: 80px;
+}
+
+.cards-box {
+    box-shadow: rgba(149, 157, 15, 0.2)0px 8px 24px;
+    border: none !important;
+    background-color: rgb(237, 249, 245);
+    /* box-shadow: 2px 2px 10px; */
+}
+
+.discount-line {
+    background-color: orange;
+}
+
+.discount-line button {
+    background-color: orange;
+    color: white;
+    padding: 5px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.footer-main h6 {
+    color: gray;
+}
+
+.footer-main h4 {
+    font-size: 17px;
+}
+
+.foot-icon-box i {
+    color: white;
+}
+
+.copyright-line p {
+    color: gray;
+}
+
 /* media query */
 
 /* for desktop */
 
 @media screen and (min-width:1024px) {
-    .section{
-        /* margin-top: 20px; */
-    }
-    .single-box-box{
+    .single-box-box {
         width: 75%;
         margin: auto;
     }
-    .section-c p{
-        font-size:10px ;
+
+    .section-c p {
+        font-size: 15px;
+    }
+
+    .section-e-box {
+        width: 60% !important;
+
+    }
+
+    .discount-line-main {
+        width: 70% !important;
     }
 }
 
 /* for tablet */
 
 @media (max-width:800px) {
-    .single-photos{
+    .single-photos {
         width: 75% !important;
     }
-    .hero{
+
+    .hero {
         margin-top: 70px;
     }
 
-    .section-c p{
-        font-size: ;
+    .section-c p {
+        font-size: 12px;
     }
-    .section-c p{
-        font-size:10px ;
+
+    .section-e-box {
+        width: 60% !important;
+
+    }
+
+    .section-e-box .card-body p {
+        font-size: 10px;
+    }
+
+    .discount-line-main {
+        width: 70% !important;
+    }
+
+    .discount-line button {
+        padding: 3px 12px;
+        font-size: 11px;
+    }
+
+    .discount-line h4 {
+        font-size: 15px;
+    }
+
+    .footer-main h6 {
+        color: gray;
+    }
+
+    .footer-main h4 {
+        font-size: 13px;
+    }
+
+    .footer-main h6 {
+        font-size: 10px;
+    }
+
+    .foot-icon-box {
+        width: 30px;
+        height: 30px;
+    }
+
+    .copyright-line p {
+        font-size: 11px;
     }
 }
+
 /* for mobile */
 
 @media (max-width:450px) {
-    .section-a h1{
+    .section-a h1 {
         font-size: 23px;
     }
-    .section-a p{
+
+    .section-a p {
         font-size: 12px !important;
         width: 100% !important;
-        
+
     }
-    .carousel-indicators{
+
+    .carousel-indicators {
         left: 0;
         top: auto;
         bottom: -90px;
-        }
+    }
 
-    .single-box h4{
+    .single-box h4 {
         font-size: 14px;
     }
-    .single-box p{
+
+    .single-box p {
         font-size: 10px;
     }
-    .single-box i{
+
+    .single-box i {
         font-size: 17px;
     }
 
 
-    .single-photos{
-        width:100% !important;
+    .single-photos {
+        width: 80% !important;
     }
-    .section-c p{
-        font-size:10px ;
+
+    .section-c p {
+        font-size: 12px;
     }
-    .section-d{
+
+    .section-d {
         width: 100% !important;
+    }
+
+    .hero-main-button {
+        font-size: 13px;
+    }
+
+    .section-e-box {
+        width: 80% !important;
+
+    }
+
+    .section-e-box .card-body p {
+        font-size: 10px;
+    }
+
+    .section-e-box .card-body h6,
+    span {
+        font-size: 10px;
+    }
+
+    .discount-line-main {
+        width: 90% !important;
+        margin: auto;
+    }
+
+    .discount-line-main button {
+        font-size: 7px;
+    }
+
+    .discount-line-main h4 {
+        font-size: 13px;
+    }
+
+    .footer-main h6 {
+        color: gray;
+    }
+
+    .footer-main h4 {
+        font-size: 9px;
+    }
+
+    .footer-main h6 {
+        font-size: 7px;
+    }
+
+    .foot-icon-box {
+        width: 15px;
+        height: 15px;
+        font-size: 8px;
+        margin-right: 5px;
+    }
+
+    .copyright-line p {
+        font-size: 8px;
     }
 }
